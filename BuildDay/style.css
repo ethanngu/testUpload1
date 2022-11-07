@@ -1,0 +1,309 @@
+* {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+body {
+    background-color: #d2b48c;
+}
+
+.name {
+    text-align: center;
+    font-size: larger;
+/*     z-index: 999; */
+}
+
+.subDescription{
+    text-align: center;
+}
+
+.headerPos{
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  z-index: 100;
+}
+
+
+/* class name of the list ul */
+.menuBar{
+    /* list-style-type: none;
+    text-align: center; */
+    display: block; 
+    list-style-type: none ;
+/*     display:inline; */
+/*     margin: 0 auto; */
+/*     padding: 0px; */
+/*     width: 25%; */
+    text-align: right;
+  position: absolute; 
+           top: -20px;
+        right: 0px; 
+  width: 100%;
+  height: 60px;
+/*         top: 30px;
+        right: 0px; */
+
+  border: 1px solid #937e62;
+  background-color: #b09978;
+/*   max-width: 800px; */
+/*   margin-right: auto;
+  margin-left: auto; */
+}
+
+/* class name of each list element li*/
+.menuItem{ 
+    display:inline-block;
+    padding: 10px;
+    text-align: center;
+    font-color: white;
+    margin: 11px 0;
+/*     margin-left: 250px;
+    padding: 0px 10px; */
+}
+
+.mColor{
+  color: white;
+}
+
+.frontRedirect{
+  color: #5c2d2d
+}
+
+.menuItem:hover{ 
+background-color: #725d55;
+font-color: white;
+font-weight: bold;
+opacity: 50%;
+}
+
+/* front page */
+.RestaurantFrontPage{
+  border-radius: 40px;
+/*   padding: 10px;
+  margin: 0 auto; */
+  background-color: #e4d1b4;
+  height: 50%;
+  width: 80%;
+  position: absolute;
+  
+  box-shadow: 2px 2px 2px #5A5A5A;
+  float: right;
+/*   margin-right: 1%; */
+}
+
+
+.restaurantFrontPic{
+  height: 50%;
+  width: 30%;
+  align: center;
+  padding: 30px;
+  float: left;
+  aspect-ratio: 3 / 2;
+}
+
+.Restaurant1{
+  border-radius: 40px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #e4d1b4;
+  height: 130%;
+  width: 80%;
+  box-shadow: 2px 2px 2px #5A5A5A;
+  float: center;
+}
+
+/* Vote Buttons */
+
+.votebutton {
+  float: right;
+  background: none;
+  border: none;
+  margin-right: 10px;
+  position: relative;
+
+}
+
+.votetext {
+  float: right;
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+.restaurant1name{
+  align: left;
+  font-size: 30px;
+  margin: 10 px;
+  float: center;
+/*   position: fixed; */
+}
+
+.restaurant1map{
+  color: saddlebrown;
+  float: center;
+}
+
+.restaurant1map:hover {
+  color: black;
+  font-weight: bold;
+}
+
+
+.restaurant1picture{
+  height: 55%;
+  width: 35%;
+  align: center;
+  padding: 30px;
+  float: left;
+  aspect-ratio: 3 / 2;
+}
+
+.restaurant2picture{
+  height: 55%;
+  width: 35%;
+  align: center;
+  padding: 30px;
+  float: left;
+  aspect-ratio: 3 / 2;
+}
+
+
+.tag_list{
+  list-style-type: none;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  float: center;
+}
+
+.tag{
+    display: inline-block;
+}
+
+.box_list{
+  list-style-type: none;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.box{
+    display: inline-block;
+}
+
+.box_icon{
+  margin-top: -5px;
+  background-image: none;
+  width: 20px;
+  length: 20px;
+  background-color: #F4F4F7;
+  background-image: url('star.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 200px 280px;
+  mix-blend-mode: multiply;
+}
+
+.rating_hover{
+  background: transparent;
+}
+
+.rating_hover{
+  position: relative;
+}
+
+.rating_hover:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.rating_hover:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.icon{
+  margin-top: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.icon:hover{
+  background: transparent;
+	color: black;
+	outline: 2px solid #304a58
+}
+
+.icon_hover{
+  position: relative;
+}
+
+.icon_hover:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.icon_hover:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.Vote_Number {
+  float: right;
+}
+
+
+
+.description{
+  float: center;
+}
+
+
+
+iframe:focus {
+  outline: none;
+  
+}
+
+iframe[seamless] {
+  display: block;
+}
+
+@media only screen and (max-width:600px) {
+    .button {
+        width: 300px;
+    }
+
+* {box-sizing:border-box}
+
+
+
+

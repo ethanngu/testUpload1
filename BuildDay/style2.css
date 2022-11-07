@@ -1,0 +1,141 @@
+* {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+body {
+    background-color: #d2b48c;
+}
+
+.name {
+    text-align: center;
+    font-size: larger;
+/*     z-index: 999; */
+}
+
+.subDescription{
+    text-align: center;
+}
+
+.headerPos{
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  z-index: 100;
+}
+
+
+/* class name of the list ul */
+.menuBar{
+    /* list-style-type: none;
+    text-align: center; */
+    display: block; 
+    list-style-type: none ;
+/*     display:inline; */
+/*     margin: 0 auto; */
+/*     padding: 0px; */
+/*     width: 25%; */
+    text-align: right;
+  position: absolute; 
+           top: -20px;
+        right: 0px; 
+  width: 100%;
+  height: 60px;
+/*         top: 30px;
+        right: 0px; */
+
+  border: 1px solid #937e62;
+  background-color: #b09978;
+/*   max-width: 800px; */
+/*   margin-right: auto;
+  margin-left: auto; */
+}
+
+/* class name of each list element li*/
+.menuItem{ 
+    display:inline-block;
+    padding: 10px;
+    text-align: center;
+    font-color: white;
+    margin: 11px 0;
+/*     margin-left: 250px;
+    padding: 0px 10px; */
+}
+
+.mColor{
+  color: white;
+}
+
+.frontRedirect{
+  color: #5c2d2d
+}
+
+.menuItem:hover{ 
+background-color: #725d55;
+font-color: white;
+font-weight: bold;
+opacity: 50%;
+}
+
+.bio_list{
+  list-style-type: none;
+  display: center;
+  margin: 0 auto;
+  padding: 0;
+  float: center;
+}
+
+.caris_photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  padding: 10px;
+  background-color: #e4d1b4;
+  height: 180px;
+  width: 180px;
+  box-shadow: 2px 2px 2px #5A5A5A;
+}
+
+.caris_bio{
+  align-text: center;
+}
+.ethan_photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  padding: 10px;
+  background-color: #e4d1b4;
+  height: 180px;
+  width: 180px;
+  box-shadow: 2px 2px 2px #5A5A5A;
+  float: center;
+}
+
+ethan_bio{
+  align-text: center;
+}
+
+.troy_photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  padding: 10px;
+  background-color: #e4d1b4;
+  height: 180px;
+  width: 180px;
+  box-shadow: 2px 2px 2px #5A5A5A;
+  float: center;
+}
+
+.troy_bio{
+  align-text: center;
+}
+
+.blog{
+  top: 40px;
+  position: relative;
+  
+}
